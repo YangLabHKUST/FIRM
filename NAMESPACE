@@ -1,0 +1,7 @@
+useDynLib(FIRM)
+
+import(Rcpp)
+
+export(FIRM, FIRM_res_all, FIRM_res,
+       Mixing_Metric, Local_Struct, label_trans, match_score,
+       prep_data, SelectGene, Select_hvg)
